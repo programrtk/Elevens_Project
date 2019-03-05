@@ -24,7 +24,7 @@ public class Deck{
            top = 51;
            for(String i : SUITS){
                for(int s=1; s <= 13; s++){
-                   new Card("i", s);
+                   cards.add(new Card("i", s));
                }
            }
         }
